@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018D6668A83C3EC82B6E02AB1DE78216 /* Pods-slide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 764DAD5E9591158B8573C31DDEC8681E /* Pods-slide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310665C20CF0E6507D15ABE42AAE0231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		491FB0D0B64DA2E12C068B20FDE64363 /* TGPControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C6E9290C12DB9EE93598AB8978786 /* TGPControls-dummy.m */; };
+		53E3AEC909D67C37F0604250EDFAEDFE /* Pods-slide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330A4C4420108852490E102810761 /* Pods-slide-dummy.m */; };
+		61CF9EAA05DC6B2F21FF3FC570917F0C /* TGPControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FACCBA039314CCEC26C316742DBC353C /* TGPControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE1ABBF6403B7801C51C5C9DD2A0E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		962CB51FA70EAC289954BA8747FFD538 /* TGPDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B933D23D1E8B793EFCA2C4E02142456 /* TGPDiscreteSlider.swift */; };
+		96AF2670FA51512FA8798F3912AFD792 /* TGPCamelLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A642DE0F7275F5ABCFB0D228C010797A /* TGPCamelLabels.swift */; };
+		D153E3890D8E9DEAE7F7311BEC76A44C /* TGPControlsTicksProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE0B1A918A771A1C19E6537882D404 /* TGPControlsTicksProtocol.swift */; };
+		D643C1B4E2BE3854F5CE13AD3C12CB9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E21069C76B6E5235D14ACB7E78AA86E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0032E989D9ED1775020C3309286B99;
+			remoteInfo = TGPControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046A38FFC892CBEDE09BEC451938FAB8 /* TGPControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TGPControls.modulemap; sourceTree = "<group>"; };
+		04D8F60DC6086E1F6D3607210B5E6DAC /* Pods-slide-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-slide-frameworks.sh"; sourceTree = "<group>"; };
+		1614B6FC6235CB9A08770D80E339C247 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D01C59417BF42B64DB71AD344815A2C /* TGPControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGPControls.xcconfig; sourceTree = "<group>"; };
+		1E8330A4C4420108852490E102810761 /* Pods-slide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-slide-dummy.m"; sourceTree = "<group>"; };
+		228268B4FECB19A46164BB0A77A82C65 /* TGPControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TGPControls.framework; path = TGPControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2547F4E7ADD002D0075B51346705B647 /* TGPControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-prefix.pch"; sourceTree = "<group>"; };
+		2AEE0B1A918A771A1C19E6537882D404 /* TGPControlsTicksProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPControlsTicksProtocol.swift; path = TGPControls/TGPControlsTicksProtocol.swift; sourceTree = "<group>"; };
+		2B933D23D1E8B793EFCA2C4E02142456 /* TGPDiscreteSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPDiscreteSlider.swift; path = TGPControls/TGPDiscreteSlider.swift; sourceTree = "<group>"; };
+		3D02C8925C1F23E388137C3055BD19A9 /* Pods-slide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-slide.release.xcconfig"; sourceTree = "<group>"; };
+		5536BB2509C4C91A9BC3F969B6A43AB2 /* Pods_slide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_slide.framework; path = "Pods-slide.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7039FF7AE06731BD050FDCAE1282B5B0 /* Pods-slide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-slide-acknowledgements.plist"; sourceTree = "<group>"; };
+		764DAD5E9591158B8573C31DDEC8681E /* Pods-slide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-slide-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EF8A26A9A5E3A13C7276672CF7D3B2 /* Pods-slide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-slide-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A642DE0F7275F5ABCFB0D228C010797A /* TGPCamelLabels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPCamelLabels.swift; path = TGPControls/TGPCamelLabels.swift; sourceTree = "<group>"; };
+		B1A7F08904489FFAEB93F607941EAAD7 /* Pods-slide-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-slide-resources.sh"; sourceTree = "<group>"; };
+		B4F86206AB063A53E6B1D19925346522 /* Pods-slide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-slide.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C23C649A190C839210AB94E06898C039 /* Pods-slide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-slide.modulemap"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC4C6E9290C12DB9EE93598AB8978786 /* TGPControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGPControls-dummy.m"; sourceTree = "<group>"; };
+		F40A32299B3681C0B8AE6CAAE97EB2F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACCBA039314CCEC26C316742DBC353C /* TGPControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB62329FB657322D837CE7EF01A9E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE1ABBF6403B7801C51C5C9DD2A0E84 /* Foundation.framework in Frameworks */,
+				D643C1B4E2BE3854F5CE13AD3C12CB9D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B011D7E84954DE8A59FF12F2E266E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310665C20CF0E6507D15ABE42AAE0231 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130657FEEAEFBE28B9B91F596E1D6D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CBD4B2BDC68AADD682EC3CF522CC404 /* TGPControls */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C0AC9FDD0FE167A7E8AC7760E114C87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D34AA499B6F8D954925D9CCFC61890E /* Pods-slide */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CA1A0DED928A37104A0CEBF125AAF77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1614B6FC6235CB9A08770D80E339C247 /* Info.plist */,
+				046A38FFC892CBEDE09BEC451938FAB8 /* TGPControls.modulemap */,
+				1D01C59417BF42B64DB71AD344815A2C /* TGPControls.xcconfig */,
+				DC4C6E9290C12DB9EE93598AB8978786 /* TGPControls-dummy.m */,
+				2547F4E7ADD002D0075B51346705B647 /* TGPControls-prefix.pch */,
+				FACCBA039314CCEC26C316742DBC353C /* TGPControls-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TGPControls";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D34AA499B6F8D954925D9CCFC61890E /* Pods-slide */ = {
+			isa = PBXGroup;
+			children = (
+				F40A32299B3681C0B8AE6CAAE97EB2F2 /* Info.plist */,
+				C23C649A190C839210AB94E06898C039 /* Pods-slide.modulemap */,
+				A1EF8A26A9A5E3A13C7276672CF7D3B2 /* Pods-slide-acknowledgements.markdown */,
+				7039FF7AE06731BD050FDCAE1282B5B0 /* Pods-slide-acknowledgements.plist */,
+				1E8330A4C4420108852490E102810761 /* Pods-slide-dummy.m */,
+				04D8F60DC6086E1F6D3607210B5E6DAC /* Pods-slide-frameworks.sh */,
+				B1A7F08904489FFAEB93F607941EAAD7 /* Pods-slide-resources.sh */,
+				764DAD5E9591158B8573C31DDEC8681E /* Pods-slide-umbrella.h */,
+				B4F86206AB063A53E6B1D19925346522 /* Pods-slide.debug.xcconfig */,
+				3D02C8925C1F23E388137C3055BD19A9 /* Pods-slide.release.xcconfig */,
+			);
+			name = "Pods-slide";
+			path = "Target Support Files/Pods-slide";
+			sourceTree = "<group>";
+		};
+		7CBD4B2BDC68AADD682EC3CF522CC404 /* TGPControls */ = {
+			isa = PBXGroup;
+			children = (
+				A642DE0F7275F5ABCFB0D228C010797A /* TGPCamelLabels.swift */,
+				2AEE0B1A918A771A1C19E6537882D404 /* TGPControlsTicksProtocol.swift */,
+				2B933D23D1E8B793EFCA2C4E02142456 /* TGPDiscreteSlider.swift */,
+				3CA1A0DED928A37104A0CEBF125AAF77 /* Support Files */,
+			);
+			name = TGPControls;
+			path = TGPControls;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				130657FEEAEFBE28B9B91F596E1D6D84 /* Pods */,
+				83503750A82B6CF50161D62CE666E779 /* Products */,
+				2C0AC9FDD0FE167A7E8AC7760E114C87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83503750A82B6CF50161D62CE666E779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5536BB2509C4C91A9BC3F969B6A43AB2 /* Pods_slide.framework */,
+				228268B4FECB19A46164BB0A77A82C65 /* TGPControls.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9216C638934D3F14AF0E0C018918F57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CF9EAA05DC6B2F21FF3FC570917F0C /* TGPControls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73BE3C586A65591048994D9BA527ED7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018D6668A83C3EC82B6E02AB1DE78216 /* Pods-slide-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58FF3DC76B32A1895442CBBB6F054934 /* Pods-slide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC039DD8F846916A4E0E1F5F4584F1D6 /* Build configuration list for PBXNativeTarget "Pods-slide" */;
+			buildPhases = (
+				12C56E06C3E314F142571F2B96A742CC /* Sources */,
+				9B011D7E84954DE8A59FF12F2E266E7A /* Frameworks */,
+				D73BE3C586A65591048994D9BA527ED7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9D81176A7BDB281B3F275481A73544 /* PBXTargetDependency */,
+			);
+			name = "Pods-slide";
+			productName = "Pods-slide";
+			productReference = 5536BB2509C4C91A9BC3F969B6A43AB2 /* Pods_slide.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED0032E989D9ED1775020C3309286B99 /* TGPControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA77C7EF463E01E9A082217113FC4876 /* Build configuration list for PBXNativeTarget "TGPControls" */;
+			buildPhases = (
+				B87C94C0CD32E67C3D159D1FA46E29EC /* Sources */,
+				6EB62329FB657322D837CE7EF01A9E53 /* Frameworks */,
+				C9216C638934D3F14AF0E0C018918F57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGPControls;
+			productName = TGPControls;
+			productReference = 228268B4FECB19A46164BB0A77A82C65 /* TGPControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83503750A82B6CF50161D62CE666E779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FF3DC76B32A1895442CBBB6F054934 /* Pods-slide */,
+				ED0032E989D9ED1775020C3309286B99 /* TGPControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C56E06C3E314F142571F2B96A742CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E3AEC909D67C37F0604250EDFAEDFE /* Pods-slide-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87C94C0CD32E67C3D159D1FA46E29EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF2670FA51512FA8798F3912AFD792 /* TGPCamelLabels.swift in Sources */,
+				491FB0D0B64DA2E12C068B20FDE64363 /* TGPControls-dummy.m in Sources */,
+				D153E3890D8E9DEAE7F7311BEC76A44C /* TGPControlsTicksProtocol.swift in Sources */,
+				962CB51FA70EAC289954BA8747FFD538 /* TGPDiscreteSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD9D81176A7BDB281B3F275481A73544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TGPControls;
+			target = ED0032E989D9ED1775020C3309286B99 /* TGPControls */;
+			targetProxy = E21069C76B6E5235D14ACB7E78AA86E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F00A3E1D1EED511A8ACEE8680F4C85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D02C8925C1F23E388137C3055BD19A9 /* Pods-slide.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-slide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-slide/Pods-slide.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_slide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C347675D7622A43B41FEA5DD87803E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D01C59417BF42B64DB71AD344815A2C /* TGPControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGPControls/TGPControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGPControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGPControls/TGPControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TGPControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EADFE1B0AC4828AD518C265AA491BCD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D01C59417BF42B64DB71AD344815A2C /* TGPControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGPControls/TGPControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGPControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGPControls/TGPControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TGPControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB09CFDB921DB90F753DF84A64BCE36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F86206AB063A53E6B1D19925346522 /* Pods-slide.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-slide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-slide/Pods-slide.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_slide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA77C7EF463E01E9A082217113FC4876 /* Build configuration list for PBXNativeTarget "TGPControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADFE1B0AC4828AD518C265AA491BCD2 /* Debug */,
+				63C347675D7622A43B41FEA5DD87803E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC039DD8F846916A4E0E1F5F4584F1D6 /* Build configuration list for PBXNativeTarget "Pods-slide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09CFDB921DB90F753DF84A64BCE36A /* Debug */,
+				0F00A3E1D1EED511A8ACEE8680F4C85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

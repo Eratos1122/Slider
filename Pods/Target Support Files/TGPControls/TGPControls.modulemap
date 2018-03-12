@@ -1,0 +1,6 @@
+framework module TGPControls {
+  umbrella header "TGPControls-umbrella.h"
+
+  export *
+  module * { export * }
+}
